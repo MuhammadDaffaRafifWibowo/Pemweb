@@ -1,0 +1,86 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #ff0000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #333;
+    position: absolute; /* Like in your illustration */
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%; /* Full height navigation */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav ul li {
+    margin: 15px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main Content Styling */
+#main {
+    margin-left: 220px; /* Give space for the navigation bar */
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: calc(100vh - 60px); /* Adjust height based on header/footer */
+}
+
+/* Image Styling */
+#main img {
+    max-width: 50%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Center the image */
+    margin: 20px 0; /* Add margin above and below the image */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #bfff00;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        width: 100%; /* Make nav take full width */
+        height: auto;
+        position: relative;
+    }
+
+    #main {
+        margin-left: 0; /* Reset margin for small screens */
+        margin-top: 20px;
+    }
+}
