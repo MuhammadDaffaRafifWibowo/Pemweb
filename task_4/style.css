@@ -1,0 +1,71 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 20px;
+    background-color: #ffe4e1; /* Misty Rose (Pink Lembut) */
+    color: #4b0082; /* Indigo */
+}
+form {
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff; /* Putih */
+    border: 2px solid #db7093; /* Pale Violet Red */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(219, 112, 147, 0.5); /* Bayangan Pink */
+}
+label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: bold;
+    color: #800080; /* Purple */
+}
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #dda0dd; /* Plum */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f8f0ff; /* Lavender Blush */
+}
+input:focus, textarea:focus {
+    border-color: #ba55d3; /* Medium Orchid */
+    outline: none;
+    box-shadow: 0 0 5px #ba55d3; /* Bayangan Ungu */
+}
+button {
+    background-color: #ff69b4; /* Hot Pink */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #c71585; /* Medium Violet Red */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fdf5e6; /* Old Lace */
+    box-shadow: 0 4px 6px rgba(186, 85, 211, 0.2); /* Bayangan Ungu */
+}
+th, td {
+    border: 1px solid #dda0dd; /* Plum */
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #da70d6; /* Orchid */
+    color: white;
+    font-size: 18px;
+}
+tr:nth-child(even) {
+    background-color: #ffe4e1; /* Misty Rose */
+}
+tr:hover {
+    background-color: #ffb6c1; /* Light Pink */
+    transition: background-color 0.3s ease;
+}
